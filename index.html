@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Hiking Adventures</title>
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <h1>Welcome to Hiking Adventures</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="./hiking.html">Trails</a>
+          </li>
+          <li>
+            <a href="./about.html">Contact Us</a>
+          </li>
+          <li><a href="./saveForLater.html">Saved Items</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--separate each section-->
+    <section class="intro">
+      <h2>Explore the Great Outdoors</h2>
+      <p>Experience the beauty of nature on our breathtaking hiking trails.</p>
+      <div class="img-container">
+        <img
+          src="./images/hiking.jpg"
+          alt="Hiking in the mountains"
+          data-src="./images/hiking.jpg"
+          data-title="Hiking in the Mountains"
+        />
+        <button class="save-button">Save</button>
+      </div>
+    </section>
+    <!--separate each section-->
+    <section class="info">
+      <h2>Why Choose Us?</h2>
+      <ul>
+        <li>Expert Guides</li>
+        <li>Scenic Locations</li>
+        <li>Custom Adventures</li>
+      </ul>
+    </section>
+    <!--separate each section-->
+    <section class="testimonials">
+      <h2>What Our Hikers Say</h2>
+      <blockquote>
+        "Hiking Adventures took me to places I've only dreamed of. An
+        unforgettable experience!"
+        <cite>John Doe</cite>
+      </blockquote>
+    </section>
+    <!-- section for comment form -->
+    <section>
+      <h2>Leave a Comment</h2>
+      <form action="process_comment.js" method="post">
+        <div class="form-group">
+          <label for="comment">Comment:</label>
+          <textarea id="comment" name="comment" rows="4" required></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <!--separate each section-->
+    <section class="newsletter">
+      <h2>Subscribe to Our Newsletter</h2>
+      <form>
+        <input type="email" name="email" placeholder="Enter your email" />
+
+        <p>Would you like to receive emails for promotions?</p>
+        <label>
+          <input type="radio" name="promotions" />
+          Yes
+        </label>
+        <label>
+          <input type="radio" name="promotions" />
+          No
+        </label>
+        <input type="submit" />
+      </form>
+    </section>
+    <!--footer-->
+    <footer>
+      <p>&copy; 2023 Hiking Adventures</p>
+    </footer>
+    <script type="text/javascript" src="./saveForLater.js"></script>
+  </body>
+</html>

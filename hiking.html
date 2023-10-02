@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="hiking.css" />
+    <title>Trails</title>
+  </head>
+  <body>
+    <!-- header-->
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="./hiking.html">Trails</a>
+          </li>
+          <li>
+            <a href="./about.html">Contact Us</a>
+          </li>
+          <li><a href="./saveForLater.html">Saved Items</a></li>
+        </ul>
+      </nav>
+      <h1>Popular Hiking Trails</h1>
+      <p>These are the top most popular hiking trails in the Western Cape</p>
+    </header>
+    <!-- section with table-->
+    <section>
+      <table id="table-to-save">
+        <thead>
+          <tr>
+            <th>Trail Name</th>
+            <th>Location</th>
+            <th>Length</th>
+            <th>Difficulty</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- add table rows with info-->
+          <tr>
+            <td>Lion's Head Summit</td>
+            <td>Table Mountain National Park</td>
+            <td>4.3 km</td>
+            <td>Easy-Moderate</td>
+          </tr>
+          <tr>
+            <td>Cecilia Waterfall</td>
+            <td>Table Mountain National Park</td>
+            <td>4.3 km</td>
+            <td>Moderate</td>
+          </tr>
+          <tr>
+            <td>Platteklip Gorge</td>
+            <td>Table Mountain National Park</td>
+            <td>2.9 km</td>
+            <td>Hard</td>
+          </tr>
+          <tr>
+            <td>Paradykloof Waterfall</td>
+            <td>Stellenbosch NU</td>
+            <td>5.0 km</td>
+            <td>Moderate</td>
+          </tr>
+          <tr>
+            <td>Kasteelspoort Trail</td>
+            <td>Table Mountain National Park</td>
+            <td>4.7 km</td>
+            <td>Hard</td>
+          </tr>
+        </tbody>
+      </table>
+      <button class="save-button" data-type="table">Save</button>
+    </section>
+    <!-- section for images using cards-->
+    <section>
+      <div class="card">
+        <img src="./images/platteklipgorge.jpeg" alt="Platteklip Gorge" />
+        <div class="container">
+          <h4><b>Platteklip Gorge</b></h4>
+          <button class="save-button">Save</button>
+          <button class="like-button">Like</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/ceciliawaterfall.jpg" alt="Cecilia Waterfall" />
+        <div class="container">
+          <h4><b>Cecilia Waterfall</b></h4>
+        </div>
+        <button class="save-button">Save</button>
+        <button class="like-button">Like</button>
+      </div>
+      <div class="card">
+        <img src="../images/lionshead.jpg" alt="Lion's Head" />
+        <div class="container">
+          <h4><b>Lion's Head</b></h4>
+        </div>
+        <button class="save-button">Save</button>
+        <button class="like-button">Like</button>
+      </div>
+    </section>
+    <!-- section with external links-->
+    <section>
+      <p>
+        Click here to see a full list of the best trails to hike in the Western
+        Cape:
+        <a href="https://www.alltrails.com/south-africa/western-cape"
+          >Best Trails</a
+        >
+      </p>
+      <p>
+        Click here to see a list of beginner-friendly trails to hike in the
+        Western Cape:
+        <a
+          href="https://purelylocal.co.za/explore/beginner-friendly-hikes-in-the-western-cape/"
+          >Beginner-friendly Trails</a
+        >
+      </p>
+    </section>
+    <!-- footer-->
+    <footer>
+      <p>&copy; 2023 Popular Hobbies</p>
+    </footer>
+    <script type="text/javascript" src="./saveForLater.js"></script>
+  </body>
+</html>

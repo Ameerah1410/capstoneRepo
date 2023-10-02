@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="about.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <!-- header-->
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="./hiking.html">Trails</a>
+          </li>
+          <li>
+            <a href="./about.html">Contact Us</a>
+          </li>
+          <li><a href="./saveForLater.html">Saved Items</a></li>
+        </ul>
+      </nav>
+      <h1>Contact Details</h1>
+    </header>
+    <!-- intro section-->
+    <section>
+      <h2>Contact us today!</h2>
+      <p>
+        Book your next tour with us and experience the beauty of nature on our
+        breathtaking hiking trails.
+      </p>
+    </section>
+    <!-- section for phone number-->
+    <section>
+      <h3>Phone</h3>
+      <p>Tel: 021 123 4567</p>
+      <p>Cel: 072 987 6543</p>
+    </section>
+    <!-- section for email-->
+    <section>
+      <h3>Email</h3>
+      <p><a href="info@hikingadventures.com">info@hikingadventures.com</a></p>
+    </section>
+    <!-- section for address-->
+    <section>
+      <h3>Address</h3>
+      <p>456 Imaginary Street</p>
+      <p>Cape Town CBD</p>
+      <p>7894</p>
+    </section>
+    <!-- section for the contact form -->
+    <section>
+      <h2>Contact Us</h2>
+      <form action="process_contact.js" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <!-- section containing the image-->
+    <section>
+      <img
+        src="./image/contact.jpg"
+        alt="Hikers View"
+        data-type="image"
+        data-title="Hikers View"
+        data-src="./image/contact.jpg"
+      />
+      <button class="save-button" data-type="image">Save</button>
+    </section>
+    <!-- footer-->
+    <footer>
+      <p>&copy; 2023 Hiking Adventures</p>
+    </footer>
+    <script type="text/javascript" src="./saveForLater.js"></script>
+  </body>
+</html>

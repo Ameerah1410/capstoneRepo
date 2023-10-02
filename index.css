@@ -1,0 +1,82 @@
+/* reset some default styles */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* basic styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+/* styling for the header */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+/* styling and formatting for the nav bar */
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+/* styling for the sections */
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+/* styling for the image */
+.intro img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+/* styling for the list */
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+/* format for the form */
+form {
+  margin-top: 10px;
+}
+/* styling and formatting for the quote */
+blockquote {
+  font-style: italic;
+  margin-top: 10px;
+  padding-left: 20px;
+  border-left: 3px solid #333;
+}
+
+cite {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+/* styling for the footer */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.save-Button {
+  border-radius: 25px;
+}
